@@ -1,3 +1,10 @@
-zone_id = "Z0088116XR77T1ZDACBY"
-name    = "nurkyz.net"
-records = "127.0.0.1"
+output "zone_id" {
+  value = "Z0088116XR77T1ZDACBY"
+}
+output "name" {
+  value = "blog.nurkyz.net"
+}
+output "records" {
+  value = "127.0.0.1"
+}
+
