@@ -2,8 +2,9 @@ output "region" {
   value = "us-east-2"
 }
 output "key_name" {
-  value = "class2"
+  value = "aws_key_pair.ilearning-wordpress.key_name"
 }
 output "key_id" {
-  value = "class2"
+  value = "aws_key_pair.ilearning-wordpress.key_pair_id"
 }
+
