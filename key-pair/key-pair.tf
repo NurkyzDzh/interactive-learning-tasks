@@ -1,4 +1,4 @@
-resource "aws_key_pair"  "ilearning-wordpress" {
-    key_name   = "ilearning-wordpress"
+resource "aws_key_pair"  "class2" {
+    key_name   = "class2"
     public_key = file("~/.ssh/id_rsa.pub")
 }
