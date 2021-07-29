@@ -1,0 +1,1 @@
+webserver accessible at wordpress.yourdomain
