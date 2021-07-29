@@ -3,6 +3,6 @@ resource "aws_route53_record" "www" {
   name    = "wordpress.nurkyz.net"
   type    = "A"
   ttl     = "60"
-  records = ["aws_instance.web.public_ip"]
+  records = [aws_instance.web.public_ip]
 
 }
