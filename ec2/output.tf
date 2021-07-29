@@ -2,7 +2,7 @@ output "availability_zone" {
   value = "us-east-1a"
 }
 output "public_ip" {
-  value = "aws_instance.web.public.ip"
+  value = "aws_instance.web.public_ip"
 }
 output "instance_id" {
   value = "aws_instance.web.id"
