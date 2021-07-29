@@ -5,5 +5,5 @@ output "key_name" {
   value = "ilearning-wordpress"
 }
 output "key_id" {
-  value = "127.0.0.1"
+  value = ""
 }
