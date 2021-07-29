@@ -1,9 +1,9 @@
-output "zone_id" {
-  value = "Z0088116XR77T1ZDACBY"
+output "region" {
+  value = "us-east-2"
 }
-output "name" {
+output "key_name" {
   value = "blog.nurkyz.net"
 }
-output "records" {
+output "key_id" {
   value = "127.0.0.1"
 }
