@@ -5,5 +5,5 @@ output "key_name" {
   value = "ilearning-wordpress"
 }
 output "key_id" {
-  value = ""
+  value = "ilearning-wordpress"
 }
