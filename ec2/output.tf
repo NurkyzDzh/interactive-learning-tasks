@@ -1,11 +1,11 @@
 output "availability_zone" {
   value = "us-east-1a"
 }
-output "associate_public_ip_address" {
-  value = "true"
+output "public_ip" {
+  value = "aws_instance.web.public.ip"
 }
 output "instance_id " {
-  value = ""
+  value = "aws_instance.web.id"
 }
 
 
