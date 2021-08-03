@@ -1,9 +1,12 @@
 output "sec_group_id" {
-    value = "aws_security_group.allow_inbound_traffic.sec_group_id"
+  value = "aws_security_group.external_by_terraform.id"
 }
-output  "region" {
-    value = "us-east-1"
+output "arn" {
+  value = "aws_security_group.external_by_terraform.arn"
 }
-output "attached_vpc" {
-    value = ["aws_security_group.aws_vpc.main"]
+output "owner_id" {
+  value = "aws_security_group.external_by_terraform.owner_id"
+}
+output "region" {
+  value = "us-east-1"
 }
